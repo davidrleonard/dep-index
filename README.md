@@ -115,13 +115,16 @@ const deps = depIndex({
 * `logLevel` {String} - The loudness level to log. Options: silent, error, warn, info, silly.
 * `packageManagers` {Array} - (optional, defaults to `['bower']`) Specify which package managers' manifest files you'd like to search. Options: bower, npm.
 
-### Use methods (API documentation)
+### Use methods
 
-Once you have a `dep-index` instance, you can call methods on it to analyze your dependencies. All methods return promises that resolve with the result of the command. Using a promise wrapping library like [bluebird](https://github.com/petkaantonov/bluebird) is recommended.
+Once you have a `dep-index` instance, you can call methods on it to analyze your dependencies. All methods return promises that resolve with the result of the command. Using a promise wrapping library like [bluebird](https://github.com/petkaantonov/bluebird) is recommended. See the [API documentation](https://github.com/davidrleonard/dep-index#api) in the README for all available methods.
+
+[](#api)
+## API documentation
 
 The following methods are currently available:
 
-#### search(dependencyName)
+### search(dependencyName)
 
 Searches through all projects in the instance's `projectsDirPath` for projects that install a dependency named `dependencyName`.
 
