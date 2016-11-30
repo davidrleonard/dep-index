@@ -1,6 +1,6 @@
 {
   "name": "dep-index",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Crawls through directories to find and report on dependencies.",
   "author": "David Leonard <davidrobertleonard@gmail.com>",
   "homepage": "https://github.com/davidrleonard/dep-index#readme",
