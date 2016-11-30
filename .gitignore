@@ -35,3 +35,7 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Places where you might hold projects
+repos/
+projects/
