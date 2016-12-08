@@ -3,13 +3,12 @@
 const Promise = require('bluebird');
 const DepIndex = require('../index');
 
-
 const deps = DepIndex({
   projectsDirPath: __dirname + '/../repos',
   printResults: true
 });
 
-deps.search('module-name')
+deps.search('px-defaults-design')
   .then((result) => {
     console.log('Done!');
     // `result` is a Map. Check if it has a size (like calling .length on an array). If it does, we found a matching module.

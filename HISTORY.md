@@ -1,3 +1,7 @@
+0.1.2
+=========
+* Add a search option for `*`, which returns a Map of all dependencies
+
 0.1.1
 =========
 * Fix small issues with example and documentation

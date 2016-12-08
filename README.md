@@ -130,8 +130,10 @@ Searches through all projects in the instance's `projectsDirPath` for projects t
 
 Returns a promise that resolves with an [Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map). The Map will be a flattened representation of the projects that install `dependencyName`. If no projects use the requested dependency, the Map will be empty.
 
+If you pass a star (`'*'`), the resulting Map will be a shallow index of all dependencies found in the searched projects.
+
 **Params:**
-* `dependencyName` {String} - The name of the dependency to find information about
+* `dependencyName` {String} - The name of the dependency to find information about, or star (`'*'`) for all dependencies.
 
 **Returns:**
 * {Promise} - A map with the results of the search
