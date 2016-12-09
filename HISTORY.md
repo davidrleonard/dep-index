@@ -1,3 +1,7 @@
+0.2.0
+=========
+* Add the `crawl` method
+
 0.1.2
 =========
 * Add a search option for `*`, which returns a Map of all dependencies

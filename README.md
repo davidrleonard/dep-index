@@ -157,6 +157,37 @@ deps.search('px-defaults-design')
   });
 ```
 
+### craw()
+
+Crawls through all projects in the instance's `projectsDirPath` and collects information about them, including all available tags and the `bower.json` file at each tag (for dependency information.)
+
+Returns a Promise that resolves with an Object of arrays containing info on each project.
+
+**Params:**
+* `dependencyName` {String} - The name of the dependency to find information about, or star (`'*'`) for all dependencies.
+
+**Returns:**
+* {Promise} - An Object of arrays containing info on each project
+
+**Example:**
+```
+const Promise = require('bluebird');
+const depIndex = require('dep-index');
+
+const deps = depIndex({
+  projectsDirPath: __dirname + '/projects',
+  printResults: true
+});
+
+deps.crawl()
+  .then((result) => {
+    // ... handle resulting Object ...
+  })
+  .error((err) => {
+    // ... handle error ...
+  });
+```
+
 ## Issues and contributing
 
 Please submit any issues or bugs you find through [Github Issues](https://github.com/davidrleonard/dep-index/issues). This is side project with no guarantee of support.
