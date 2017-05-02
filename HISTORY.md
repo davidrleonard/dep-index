@@ -1,3 +1,7 @@
+0.2.1
+=========
+* Fix bug that caused dep index to fail if a searched folder did not have a bower.json file
+
 0.2.0
 =========
 * Add the `crawl` method
