@@ -1,3 +1,7 @@
+0.3.0
+=========
+* Adds the `findIncompatibles` method
+
 0.2.1
 =========
 * Fix bug that caused dep index to fail if a searched folder did not have a bower.json file
