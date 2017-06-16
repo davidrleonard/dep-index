@@ -1,6 +1,6 @@
 {
   "name": "dep-index",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Crawls through directories to find and report on dependencies.",
   "author": "David Leonard <davidrobertleonard@gmail.com>",
   "license": "MIT",
