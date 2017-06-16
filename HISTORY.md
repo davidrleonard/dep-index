@@ -1,3 +1,7 @@
+0.3.1
+=========
+* Remove debug logging
+
 0.3.0
 =========
 * Adds the `findIncompatibles` method
