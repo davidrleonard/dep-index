@@ -157,7 +157,7 @@ deps.search('px-defaults-design')
   });
 ```
 
-### craw()
+### crawl()
 
 Crawls through all projects in the instance's `projectsDirPath` and collects information about them, including all available tags and the `bower.json` file at each tag (for dependency information.)
 
